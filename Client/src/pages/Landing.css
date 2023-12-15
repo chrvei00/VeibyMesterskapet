@@ -1,0 +1,49 @@
+.landing-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fade-in-text {
+  opacity: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fade-in-text h1 {
+  color: white; /* Set text color to white */
+  font-weight: bold; /* Make the text bolder */
+  text-align: center; /* Center-align the text */
+}
+
+.fade-in-text p {
+  color: white; /* Set text color to white */
+  font-weight: bold; /* Make the text bolder */
+  text-align: center; /* Center-align the text */
+}
+
+.fade-in-t {
+  display: flex;
+  opacity: 100;
+  animation: fade-in-animation 3s ease-in-out forwards;
+}
+#hide-button {
+  opacity: 0;
+}
+
+#fade-in-button {
+  color: white;
+  outline: white, 1px;
+  animation: fade-in-animation 3s ease-in-out forwards;
+}
+
+@keyframes fade-in-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
