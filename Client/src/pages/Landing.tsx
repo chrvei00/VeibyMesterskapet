@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Button from "@mui/material/Button";
 import "./Landing.css"; // Create this CSS file for styling
 
 const Landing: React.FC = () => {
+  const navigate = useNavigate();
   const [fadeInH1, setFadeInH1] = useState(false);
   const [fadeInP, setFadeInP] = useState(false);
   const [fadeInB, setFadeInB] = useState(false);
@@ -35,6 +37,7 @@ const Landing: React.FC = () => {
           er kvalifisert til å motta den.
         </p>
         <Button
+          onClick={() => navigate("/test")}
           id={`${!fadeInB ? "hide-button" : "fade-in-button"}`}
           variant="contained"
         >
