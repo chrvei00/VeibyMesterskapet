@@ -17,3 +17,9 @@
   border: none;
   padding-top: 5rem;
 }
+
+.videoDiv {
+  margin: auto;
+  padding-top: 3rem;
+  width: 100px;
+}
