@@ -55,7 +55,7 @@ const Questions: Question[] = [
     correctAnswer: "Yatzy",
   },
   {
-    question: "Hvilken by?",
+    question: "Hva heter byen?",
     picture: kristiansand,
     answers: ["Bergen", "Kristiansand", "Voss", "Sandefjord"],
     correctAnswer: "Kristiansand",
@@ -72,7 +72,7 @@ const Questions: Question[] = [
     correctAnswer: "Spilt poden",
   },
   {
-    question: "Hvilken by?",
+    question: "Hva heter byen?",
     picture: voss,
     answers: ["Kristiansand", "Bergen", "Voss", "Sandefjord"],
     correctAnswer: "Voss",
