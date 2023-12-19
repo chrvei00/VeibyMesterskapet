@@ -6,7 +6,7 @@ const path = require("path");
 const app = express();
 
 // Define your routes and middleware here
-app.use(express.static(path.join(__dirname, "../client", "dist")));
+app.use(express.static(path.join(__dirname, "./client", "dist")));
 // Handle all other GET-reqs
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client", "dist", "index.html"));

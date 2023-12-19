@@ -1,0 +1,20 @@
+{
+  "name": "veibymesterskapet",
+  "version": "1.0.0",
+  "description": "Representasjon av julegave i form av nettside.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrvei00/VeibyMesterskapet.git"
+  },
+  "author": "Christian Veiby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrvei00/VeibyMesterskapet/issues"
+  },
+  "homepage": "https://github.com/chrvei00/VeibyMesterskapet#readme"
+}
