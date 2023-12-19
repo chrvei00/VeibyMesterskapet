@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chrvei00/VeibyMesterskapet/issues"
   },
-  "homepage": "https://github.com/chrvei00/VeibyMesterskapet#readme"
+  "homepage": "https://github.com/chrvei00/VeibyMesterskapet#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
