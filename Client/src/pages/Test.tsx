@@ -5,10 +5,7 @@ import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 import birdieDramPic from "../assets/birdieDram.jpg";
 import skogshorn from "../assets/skogshorn.jpg";
-import peergolf from "../assets/peergolf.jpg";
 import pappadalt from "../assets/pappadalt.jpg";
-import kristiansand from "../assets/kristiansand.jpg";
-import poden from "../assets/poden.jpg";
 import voss from "../assets/voss.jpg";
 import "./Test.css";
 
@@ -38,38 +35,10 @@ const Questions: Question[] = [
     correctAnswer: "Skogshorn",
   },
   {
-    question: "Hvordan endte dette slaget?",
-    picture: peergolf,
-    answers: [
-      "2 meter fra pinnen og birdie",
-      "I vannet",
-      "10 meter forran der ballen startet",
-      "Hole in one",
-    ],
-    correctAnswer: "10 meter forran der ballen startet",
-  },
-  {
     question: "Hvem skal ut?",
     picture: pappadalt,
     answers: ["Yatzy", "Bingo", "Ludo"],
     correctAnswer: "Yatzy",
-  },
-  {
-    question: "Hva heter byen?",
-    picture: kristiansand,
-    answers: ["Bergen", "Kristiansand", "Voss", "Sandefjord"],
-    correctAnswer: "Kristiansand",
-  },
-  {
-    question: "Hva har vi nettopp gjort?",
-    picture: poden,
-    answers: [
-      "Spilt poden",
-      "Måket taket",
-      "Løpt opp slalombakken",
-      "Spilt golf",
-    ],
-    correctAnswer: "Spilt poden",
   },
   {
     question: "Hva heter byen?",
